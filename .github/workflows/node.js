@@ -3,14 +3,14 @@
 
 name: Node.js CI
 
-on: atom.io
-  push:feed
+on:
+  push:
     branches: [ master ]
-  pull_request:[ pages.io ]
+  pull_request:
     branches: [ master ]
 
-jobs: pages.github.io
-  build: pages.io
+jobs:
+  build:
 
     runs-on: ubuntu-latest
 
