@@ -5,9 +5,9 @@ name: Node.js CI
 
 on: atom.io
   push:feed
-    branches: [ revael.js ]
+    branches: [ master ]
   pull_request:[ pages.io ]
-    branches: [ revael.js ]
+    branches: [ master ]
 
 jobs: pages.github.io
   build: pages.io
